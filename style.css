@@ -31,6 +31,11 @@
   .row {
     flex-direction: column;
   }
+  /* student says */
+  .testimonial-col img {
+    margin-left: 0;
+    margin-right: 15px;
+  }
 }
 
 * {
@@ -220,10 +225,43 @@ h3 {
 }
 .facilities-col p {
   padding: 0;
-  text-align: left;
+  text-align: center;
 }
 .facilities-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
+  text-align: center;
+}
+/* }testimonials */
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.testimonial-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
   text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.testimonial-col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.testimonial-col p {
+  padding: 0;
+}
+.testimonial-col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
+.testimonial-col .fa {
+  color: coral;
 }
